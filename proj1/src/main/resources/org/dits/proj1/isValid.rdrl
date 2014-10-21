@@ -1,0 +1,9 @@
+package org.dits.proj1;
+
+import java.lang.Number;
+
+rule "isValid"
+	dialect "mvel"
+	when
+	then
+end

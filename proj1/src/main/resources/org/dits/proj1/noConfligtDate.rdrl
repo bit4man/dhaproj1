@@ -1,9 +1,12 @@
 package org.dits.proj1;
 
 import java.lang.Number;
+import org.dits.patient.model.PatientTest;
 
 rule "noConfligtDate"
 	dialect "mvel"
 	when
+		p1 : PatientTest( )
+		not (PatientTest( this != p1 , test == p1.test , certDate < p1.certDate )) 
 	then
 end

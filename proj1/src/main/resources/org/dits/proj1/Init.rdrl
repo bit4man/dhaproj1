@@ -1,9 +1,13 @@
 package org.dits.proj1;
 
 import java.lang.Number;
+import java.util.ArrayList;
 
 rule "Init"
 	dialect "mvel"
+	no-loop true
 	when
+		not (ArrayList( )) 
 	then
+		insert( new ArrayList() );
 end

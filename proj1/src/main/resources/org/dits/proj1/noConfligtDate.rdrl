@@ -7,6 +7,7 @@ rule "noConfligtDate"
 	dialect "mvel"
 	when
 		p1 : PatientTest( )
-		not (PatientTest( this != p1 , test == p1.test , certDate < p1.certDate )) 
+		p2 : PatientTest( this != p1 , certDate == p1.certDate , test == p1.test )
 	then
+		retract( p1 );
 end

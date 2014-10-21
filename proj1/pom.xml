@@ -7,6 +7,13 @@
   <version>1.0</version>
   <packaging>kjar</packaging>
   <name>proj1</name>
+  <dependencies>
+    <dependency>
+      <groupId>SPAWAR</groupId>
+      <artifactId>patient</artifactId>
+      <version>1.1</version>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>

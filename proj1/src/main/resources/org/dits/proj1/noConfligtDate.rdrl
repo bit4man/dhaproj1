@@ -6,8 +6,8 @@ import org.dits.patient.model.PatientTest;
 rule "noConfligtDate"
 	dialect "mvel"
 	when
-		p1 : PatientTest( )
-		p2 : PatientTest( this != p1 , certDate == p1.certDate , test == p1.test )
+		t1 : TestResult( )
+		TestResult( this != t1 , priority < t1.priority , testName == t1.testName , certDate == t1.certDate )
 	then
-		retract( p1 );
+		retract( t1 );
 end

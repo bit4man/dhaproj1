@@ -16,14 +16,16 @@
         </field-data>
         <field-data>
           <name>system</name>
-          <value>Direct</value>
-          <nature>1</nature>
+          <value>Other</value>
+          <nature>4</nature>
         </field-data>
         <field-data>
           <name>testName</name>
         </field-data>
         <field-data>
           <name>source</name>
+          <value>Outpat</value>
+          <nature>4</nature>
         </field-data>
         <field-data>
           <name>testScore</name>
@@ -42,8 +44,8 @@
         </field-data>
         <field-data>
           <name>system</name>
-          <value>ICDB</value>
-          <nature>1</nature>
+          <value>Other</value>
+          <nature>4</nature>
         </field-data>
         <field-data>
           <name>testName</name>

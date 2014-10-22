@@ -1,10 +1,10 @@
 package org.dits.proj1;
 
 import java.lang.Number;
-import org.dits.patient.model.PatientTest;
 
 rule "noConfligtDate"
 	dialect "mvel"
+	ruleflow-group "validate"
 	when
 		t1 : TestResult( )
 		TestResult( this != t1 , priority < t1.priority , testName == t1.testName , certDate == t1.certDate )

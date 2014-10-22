@@ -22,6 +22,18 @@
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
     </attribute-column52>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueString>validate</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <attribute>activation-group</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
   </attributeCols>
   <conditionPatterns>
     <Pattern52>
@@ -61,6 +73,7 @@
         </condition-column52>
       </conditions>
       <window>
+        <operator></operator>
         <parameters/>
       </window>
     </Pattern52>
@@ -132,6 +145,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>validate</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>CHCS</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -157,6 +175,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>validate</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -200,6 +223,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>validate</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>VISTA</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -225,6 +253,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>validate</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -268,6 +301,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>validate</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>MTF Entered</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -302,6 +340,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>validate</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString>Outpat</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -327,6 +370,11 @@
       </value>
       <value>
         <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>validate</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

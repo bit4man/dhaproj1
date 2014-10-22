@@ -1,2 +1,2 @@
-'TestResult.system' : Direct,ICDB,VA,Network,Other
-'TestResult.source' : CHCS,AIM,VISTA,COHORT DIRLAB,MTF Entered,Outpat
+'TestResult.system' : [ 'Direct','ICDB','VA','Network','Other']
+'TestResult.source' : ['CHCS','AIM','VISTA','COHORT DIRLAB','MTF Entered','Outpat' ]

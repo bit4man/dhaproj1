@@ -6,6 +6,7 @@ import java.util.ArrayList;
 rule "Init"
 	dialect "mvel"
 	no-loop true
+	ruleflow-group "init"
 	when
 		not (ArrayList( )) 
 	then

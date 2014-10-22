@@ -4,6 +4,7 @@ import java.lang.Number;
 
 rule "NoConfictResult"
 	dialect "mvel"
+	ruleflow-group "validate"
 	when
 		t1 : TestResult( )
 		TestResult( this != t1 , system == t1.system , certDate == t1.certDate , testName == t1.testName , testScore > t1.testScore , source == t1.source )

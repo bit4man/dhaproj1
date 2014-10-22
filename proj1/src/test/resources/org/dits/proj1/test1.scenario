@@ -16,19 +16,23 @@
         </field-data>
         <field-data>
           <name>system</name>
-          <value>Other</value>
+          <value>Direct</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>testName</name>
+          <value>HEMOGLOBIN A1C</value>
+          <nature>1</nature>
         </field-data>
         <field-data>
           <name>source</name>
-          <value>Outpat</value>
+          <value>CHCS</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>testScore</name>
+          <value>7.3</value>
+          <nature>1</nature>
         </field-data>
       </fieldData>
       <name>t1</name>
@@ -44,17 +48,23 @@
         </field-data>
         <field-data>
           <name>system</name>
-          <value>Other</value>
+          <value>ICDB</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>testName</name>
+          <value>HEMOGLOBIN A1C</value>
+          <nature>1</nature>
         </field-data>
         <field-data>
           <name>source</name>
+          <value>COHORT DIRLAB</value>
+          <nature>4</nature>
         </field-data>
         <field-data>
           <name>testScore</name>
+          <value>7.3</value>
+          <nature>1</nature>
         </field-data>
       </fieldData>
       <name>t2</name>
@@ -70,15 +80,23 @@
         </field-data>
         <field-data>
           <name>system</name>
+          <value>Direct</value>
+          <nature>4</nature>
         </field-data>
         <field-data>
           <name>testName</name>
+          <value>HEMOGLOBIN A1C</value>
+          <nature>1</nature>
         </field-data>
         <field-data>
           <name>source</name>
+          <value>CHCS</value>
+          <nature>4</nature>
         </field-data>
         <field-data>
           <name>testScore</name>
+          <value>7.0</value>
+          <nature>1</nature>
         </field-data>
       </fieldData>
       <name>t3</name>
@@ -94,15 +112,23 @@
         </field-data>
         <field-data>
           <name>system</name>
+          <value>ICDB</value>
+          <nature>4</nature>
         </field-data>
         <field-data>
           <name>testName</name>
+          <value>HEMOGLOBIN A1C</value>
+          <nature>1</nature>
         </field-data>
         <field-data>
           <name>source</name>
+          <value>COHORT DIRLAB</value>
+          <nature>4</nature>
         </field-data>
         <field-data>
           <name>testScore</name>
+          <value>7.0</value>
+          <nature>1</nature>
         </field-data>
       </fieldData>
       <name>t4</name>
@@ -110,8 +136,51 @@
     </fact-data>
     <execution-trace/>
     <expect-fact>
-      <fieldValues/>
+      <fieldValues>
+        <expect-field>
+          <fieldName>priority</fieldName>
+          <expected></expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
       <name>t1</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>priority</fieldName>
+          <expected>4</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>t2</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>priority</fieldName>
+          <expected></expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>t3</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>priority</fieldName>
+          <expected>4</expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>t4</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>

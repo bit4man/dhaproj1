@@ -4,7 +4,6 @@ import java.lang.Number;
 
 rule "checkingThings"
 	dialect "mvel"
-	ruleflow-group "validation"
 	when
 		t1 : TestResult( )
 	then

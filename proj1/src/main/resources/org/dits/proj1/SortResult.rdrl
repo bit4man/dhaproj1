@@ -1,9 +1,12 @@
 package org.dits.proj1;
 
 import java.lang.Number;
+import java.util.ArrayList;
 
 rule "SortResult"
 	dialect "mvel"
 	when
+		res : ArrayList( )
 	then
+		java.util.Collections.sort($res)
 end

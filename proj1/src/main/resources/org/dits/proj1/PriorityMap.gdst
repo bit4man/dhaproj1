@@ -31,6 +31,21 @@
           <operator>==</operator>
           <parameters/>
         </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>-1</width>
+          <header>System</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>system</factField>
+          <fieldType>String</fieldType>
+          <operator>==</operator>
+          <parameters/>
+        </condition-column52>
       </conditions>
       <window>
         <parameters/>
@@ -99,7 +114,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Direct CHCS</valueString>
+        <valueString>CHCS</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Direct</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -123,7 +143,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Direct AIM</valueString>
+        <valueString>AIM</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Direct</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -147,7 +172,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>VA VISTA</valueString>
+        <valueString>VISTA</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>VA</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -171,7 +201,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>IDCB COHORT DIRLAB</valueString>
+        <valueString>COHORT DIRLAB</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>IDCB</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -195,7 +230,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Other MTF Entered</valueString>
+        <valueString>MTF Entered</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Other</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -219,7 +259,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>NetworkOutpat</valueString>
+        <valueString>Outpat</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Network</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

@@ -3,20 +3,115 @@
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>validate</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <fact-data>
       <type>TestResult</type>
       <fieldData>
         <field-data>
           <name>certDate</name>
+          <value>25-Mar-2014</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>system</name>
+          <value>Direct</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>testName</name>
         </field-data>
         <field-data>
           <name>source</name>
         </field-data>
+        <field-data>
+          <name>testScore</name>
+        </field-data>
       </fieldData>
-      <name>tr1</name>
+      <name>t1</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>TestResult</type>
+      <fieldData>
+        <field-data>
+          <name>certDate</name>
+          <value>25-Feb-2014</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>system</name>
+          <value>ICDB</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>testName</name>
+        </field-data>
+        <field-data>
+          <name>source</name>
+        </field-data>
+        <field-data>
+          <name>testScore</name>
+        </field-data>
+      </fieldData>
+      <name>t2</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>TestResult</type>
+      <fieldData>
+        <field-data>
+          <name>certDate</name>
+          <value>18-Jun-2014</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>system</name>
+        </field-data>
+        <field-data>
+          <name>testName</name>
+        </field-data>
+        <field-data>
+          <name>source</name>
+        </field-data>
+        <field-data>
+          <name>testScore</name>
+        </field-data>
+      </fieldData>
+      <name>t3</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <fact-data>
+      <type>TestResult</type>
+      <fieldData>
+        <field-data>
+          <name>certDate</name>
+          <value>18-Jun-2014</value>
+          <nature>1</nature>
+        </field-data>
+        <field-data>
+          <name>system</name>
+        </field-data>
+        <field-data>
+          <name>testName</name>
+        </field-data>
+        <field-data>
+          <name>source</name>
+        </field-data>
+        <field-data>
+          <name>testScore</name>
+        </field-data>
+      </fieldData>
+      <name>t4</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace/>
+    <expect-fact>
+      <fieldValues/>
+      <name>t1</name>
+      <anonymous>false</anonymous>
+    </expect-fact>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>

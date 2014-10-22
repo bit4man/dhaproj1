@@ -1,8 +1,23 @@
 <scenario>
-  <name>test1</name>
+  <name>test1.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>TestResult</type>
+      <fieldData>
+        <field-data>
+          <name>certDate</name>
+        </field-data>
+        <field-data>
+          <name>source</name>
+        </field-data>
+      </fieldData>
+      <name>tr1</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.dits.proj1</packageName>

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 rule "SortResult"
 	dialect "mvel"
+	ruleflow-group "sort"
 	when
 		res : ArrayList( )
 	then

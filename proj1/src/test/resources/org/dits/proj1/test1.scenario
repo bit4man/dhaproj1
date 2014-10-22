@@ -3,9 +3,6 @@
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>validate</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <fact-data>
       <type>TestResult</type>
       <fieldData>
@@ -153,7 +150,7 @@
           <fieldName>priority</fieldName>
           <expected>4</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>t2</name>
@@ -177,7 +174,7 @@
           <fieldName>priority</fieldName>
           <expected>4</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>t4</name>

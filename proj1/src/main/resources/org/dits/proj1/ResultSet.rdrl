@@ -5,9 +5,12 @@ import java.util.ArrayList;
 
 rule "ResultSet"
 	dialect "mvel"
+	ruleflow-group "sort"
 	when
 		res : ArrayList( )
-		test : TestResult( priority >= 0 )
+		test : TestResult( )
+		not (TestResult( certDate >= test.certDate , testName < test.testName )) 
 	then
-		res.add( res );
+		res.add( test );
+		retract( test );
 end

@@ -1,9 +1,13 @@
 package org.dits.proj1;
 
 import java.lang.Number;
+import java.util.ArrayList;
 
 rule "ResultSet"
 	dialect "mvel"
 	when
+		res : ArrayList( )
+		test : TestResult( priority >= 0 )
 	then
+		res.add( res );
 end
